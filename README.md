@@ -33,13 +33,13 @@ Install from [Google Cloud SDK](https://cloud.google.com/sdk/) or brew cask.
 Run `gcloud auth`
 
 
-# Deploy function to emylator
+## Deploy function to emylator
 
 Run `functions-emulator deploy helloGET --trigger-http`
 
 where `helloGet` - function name
 
-# Deploy function to Google Cloud Functions
+## Deploy function to Google Cloud Functions
 
 Run `gcloud functions deploy helloCounter --trigger-http`
 
